@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  /*  background-color: rgb(17, 1, 37);*/
+  } 
+
+  .logo{
+    display: flex;
+    float: left;
+    justify-content: right;
+    margin-top: 30px;
+    margin-left: 70px;
+    position: absolute;
+    z-index: 9999
+  }
+
+  .moon{
+      float: left;
+      margin-left: 70%;
+      margin-top: 3%;
+      opacity: 95%;
+      position: absolute;
+      z-index: 9999;
+  }
+
+  .content{
+    font-size: 180%;
+    font-family: 'Corben', cursive;
+    color: white;
+    position: absolute;
+    z-index: 9999;
+    margin-top: 8%;
+   
+  }
+  .content img{
+      height: 310px;
+      width: 280px;
+      border-top-left-radius: 40px;
+      border-bottom-left-radius: 40px;
+      border-top-right-radius: 40px;
+      border-bottom-right-radius: 40px;
+  }
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: rgb(54, 27, 88);
+  opacity: 70%;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 30px;
+}
+
+h3{
+    font-size: 55%
+}
+
+
+
+  @import url('https://fonts.googleapis.com/css?family=Corben:700');
+
+  h1 {
+      font-family: 'Corben', cursive;
+      font-size: 6rem;
+      color: white;
+      letter-spacing: 0.1rem;
+      text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.66);
+  }
+  
+  .hero {
+      background-image: radial-gradient(50% 176%, #1b0538 80%, #061922 100%);
+      width: 100%;
+      height: 100%;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      
+      &__content {
+          position: relative;
+          align-self: center;
+          padding: 3rem 0;
+      }
+  }
+  
+  .snow {
+      position: absolute;
+      min-width: 100vw;
+      min-height: 100vh;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+  }
+  
+  .snow .svg {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+  }
+  
+  #snow-top-layer {
+      will-change: transform;
+      transform: translateY(-768px);
+      animation: fall 22.5s infinite linear;
+  }
+  
+  #snow-bottom-layer {
+      will-change: transform;
+      transform: translateY(-768px);
+      animation: fall 45s infinite linear;
+  }
+  
+  @keyframes fall {
+      
+      100% {
+          transform: translateY(0);
+      }
+      
+  }
