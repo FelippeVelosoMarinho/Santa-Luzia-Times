@@ -6,3 +6,6 @@ Está disponível para vizualização no endereço https://felippevelosomarinho.
 
 ![image](https://user-images.githubusercontent.com/60450622/93268315-5b22b880-f783-11ea-9870-fd459e5a2746.png)
 ![SL_jornal](https://user-images.githubusercontent.com/60450622/93521416-6baf6c00-f906-11ea-91e9-306a1474c6e2.PNG)
+
+## Volume 2
+![SLN](https://user-images.githubusercontent.com/60450622/94355896-9748f980-005e-11eb-94fb-ef1d06377f7e.PNG)
